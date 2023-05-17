@@ -4,6 +4,6 @@
       "@/*": ["./src/*"],
       "@/components/*": ["./components/*"],
     },
-    "baseUrl": ".",
+    "baseUrl": "."
   }
 }
