@@ -1,5 +1,7 @@
 
 import Header from '@/components/common/header';
+// import MainLayout from '@/components/layout/main';
+import { MainLayout } from '@/components/layout';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 
@@ -40,6 +42,8 @@ const About = props => {
     );
 };
 export default About;
+
+About.Layout = MainLayout
 
 export const getStaticProps = async (context) => {    
     return {
