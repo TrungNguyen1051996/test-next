@@ -4,6 +4,7 @@
       "@/*": ["./src/*"],
       "@/components/*": ["./components/*"],
       "@/api-client/*": ["./api-client/*"],
+      "@/hooks/*": ["./hooks/*"]
     },
     "baseUrl": "."
   }
